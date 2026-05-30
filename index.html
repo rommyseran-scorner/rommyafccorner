@@ -374,9 +374,8 @@
 </head>
 <body>
 
-    <nav>
+      <nav>
         <button class="nav-btn active" onclick="showSection('home')">Home</button>
-        <!-- Tombol navigasi "Profil" yang baru diletakkan setelah Home -->
         <button class="nav-btn" onclick="showSection('profil')">Profil</button>
         
         <div class="dropdown">
@@ -390,18 +389,37 @@
         
         <button class="nav-btn" onclick="showSection('testimoni')">Testimoni</button>
         <button class="nav-btn" onclick="showSection('membership')">Membership</button>
-        <button class="nav-btn" onclick="showSection('order')">Order Produk</button>
+        
+        <button class="nav-btn" onclick="showSection('order')" style="background: #25D366; color: #ffffff; display: inline-flex; align-items: center; gap: 8px; box-shadow: 0 4px 10px rgba(37, 211, 102, 0.3); border-radius: 30px; font-weight: 600;">
+            <i class="fa-brands fa-whatsapp" style="color: #ffffff; font-size: 1.1rem;"></i> Order Produk
+        </button>
     </nav>
 
 <main style="margin-top: 0; margin-bottom: 0">
 
-      <section id="home" class="content-section active">
+       <section id="home" class="content-section active">
             <header style="background: transparent; min-height: auto; padding: 20px 0 0px; margin-bottom: 0;">
-                <div class="hero-img-container" style="max-width: 650px; width: 100%; height: auto; border-radius: 16px; overflow: hidden; box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4); border: 2px solid rgba(255, 215, 0, 0.4); margin: 0 auto 25px; transition: transform 0.5s ease;">
+                <div class="hero-img-container" style="max-width: 950px; width: 100%; height: auto; border-radius: 16px; overflow: hidden; box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4); border: 2px solid rgba(255, 215, 0, 0.4); margin: 0 auto 25px; transition: transform 0.5s ease;">
                     <img src="rommy.jpeg" alt="Rommy - AFC Japan" style="width: 100%; height: auto; display: block;">
                 </div>
-                <h5>Dapatkan informasi tentang AFC, produknya, manfaat dari produknya, pendapat dokter dan orang-orang yang telah mengkonsumsi produk AFC untuk pemulihan sakit yang diderita, cara bergabung sebagai member dan reseller produk AFC dan cara order produk AFC. Tingkatkan kualitas hidup baik dari sisi kesehatan amaupun finansial dengan mengkonsumsi produk dan bergabung bersama AFC </h5>
-                <div class="tagline" style="margin-bottom: 0; line-height: 1;">SALAM SEHAT</div>
+
+                <div class="card-main" style="max-width: 950px; margin: 0 auto 25px; text-align: left; padding: 30px;">
+                    <div style="display: flex; gap: 30px; align-items: center; flex-wrap: wrap;">
+                        
+                        <div style="flex: 1; min-width: 280px; max-width: 420px; border-radius: 12px; overflow: hidden; box-shadow: 0 8px 20px rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.1);">
+                            <img src="kondisi.jpeg" alt="Gejala Kondisi Kesehatan" style="width: 100%; height: auto; display: block;">
+                        </div>
+
+                        <div style="flex: 1.2; min-width: 280px;">
+                            <h5 style="font-size: 1.05rem; font-weight: 400; line-height: 1.7; color: #e0e1dd; margin: 0;">
+                                Tren saat ini yang dipicu oleh gaya hidup modern, pola makan, tingkat stres tinggi dan kurangnya aktivitas fisik menyebabkan penurunan kualitas kesehatan. Kondisi ini dialami oleh berbagai usia terutama ketika seseorang memasuki usia 40 tahun keatas, tubuh mulai mmelewati fase penurunan fungsi yang menjadi pintu masuk utama bagi berbagai kondisi degeneratif (penurunan fungsi sel, jaringan dan organ). pada kondisi ini, risiko terjadinya gangguan kardiovasikuler  seperti hipertensi dan penyakit jantung koroner meningkat tajam akibat pengerasan pembuluh darah serta penurunan fungsi ginjal, hati dan organ lainnya. kondisi ini kerap berjalan berdampingan dengan gangguan metabolik seperti diabetes melitus tipe 2 yang dipicu oleh penurunan sensitivitas insulin serta masalah seperti osteotritis (kerusakan tulang rawan sendi) dan osteoporosis yang mulai membatasi mobilitas fisik
+                            </h5>
+                        </div>
+
+                    </div>
+                </div>
+
+                <h3 class="tagline" style="margin-bottom: 0; line-height: 1; font-size: 1.6rem; letter-spacing: 1px;">PRODUK AFC MERUPAKAN INOVASI MEDIS LUAR BIASA DARI JEPANG YANG MENJADI SOLUSI KESEHATAN SAAT INI</h3>
             </header>
        </section>
     
@@ -439,7 +457,7 @@
     
     <div style="display: flex; flex-direction: column; align-items: center; gap: 25px;">
         <!-- Gambar Safety Asli dengan Sudut Melengkung Halus -->
-        <div style="max-width: 750px; width: 100%; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4); border: 1px solid rgba(255, 215, 0, 0.2);">
+        <div style="max-width: 900px; width: 100%; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4); border: 1px solid rgba(255, 215, 0, 0.2);">
             <img src="safety.jpeg" alt="Sertifikat Safety AFC Japan" style="width: 100%; height: auto; display: block;">
         </div>
         
